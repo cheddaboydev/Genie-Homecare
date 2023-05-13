@@ -5,172 +5,56 @@ export default function Main() {
   return (
     <div className="grotesk max-w-8xl mx-auto">
       <section className="w-full text-black">
-        <div className="max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4">
-          <div className="lg:w-3/6">
-            <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none text-black inline-block">
-              Vel quis feugiat pharetra diam.
-            </h2>
+        
+      <div className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center p-3 pt-0">
+  <div className="w-full lg:w-1/2 p-4">
+    <h2 className="text-4xl lg:text-[5.2em] font-bold leading-none text-black">
+      Genie Homecare
+    </h2>
 
-            <p className="mt-6 max-w-2xl text-xl font-semibold text-[#404040]">
-              Lorem ipsum urna, consectetur adipiscing elit. Urna risus
-              hendrerit dignissim duis fringilla sit. Lacus porttitor neque
-              ipsum.
-            </p>
-          </div>
-          <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
-            <img src="/images/placeholder.png" alt="Hero" />
-          </div>
-          <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
-            <img src="/images/placeholder.png" alt="image" />
-          </div>
-        </div>
-        <div className="mt-0 bg-white lg:mt-40">
+    <p className="mt-6 text-lg lg:text-xl font-semibold text-[#404040]">
+      Genie Homecare is a homecare company that provides caring, professional, and high-quality home care and nursing services. Our team of experienced care providers offers a range of specialized care services to meet the unique needs of our clients. With our personalized care plans, we strive to help our clients live their lives to the fullest. Contact us today to learn more about our services.
+    </p>
+  </div>
+  <div className="w-full lg:w-1/2 p-4">
+    <img src="/images/image-1.png" alt="Hero" className="w-full" />
+  </div>
+</div>
+
+
+
+
+        <div className="mt-0 bg-white lg:mt-0">
           <div className="mx-auto">
-            <div className="mx-auto px-5 py-24 lg:px-24">
-              <div className="my-10 flex w-full flex-col text-center">
-                <h2 className="mb-5 text-2xl font-bold text-black lg:text-3xl">
-                  In ullamcorper magna nunc, non molestie augue feugiat eget.
+            <div className="mx-auto px-5 py-10 lg:px-24">
+              <div className="my-5 flex w-full flex-col text-center">
+                <h2 className="mb-0 text-2xl font-bold text-black lg:text-3xl">
+                Providing Quality Home Care and Nursing Services
                 </h2>
-              </div>
-              <div
-                className="
-                grid grid-cols-2
-                gap-16
-                text-center
-                lg:grid-cols-6"
-              >
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="flex items-center justify-center">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="flex items-center justify-center">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-                <div className="hidden items-center justify-center lg:inline-block">
-                  <img
-                    src="/images/segment.png"
-                    alt="Segment"
-                    className="block h-24 object-contain"
-                  />
-                </div>
-              </div>
-              <div className="my-12 flex w-full flex-col pl-8 text-center">
-                <a
-                  href="/"
-                  className="
-                  underline-blue
-                  mb-8
-                  mt-6
-                  text-xl
-                  font-bold
-                  text-black
-                "
-                >
-                  Ut eleifend.
-                </a>
-              </div>
+              </div>        
             </div>
           </div>
-          <div className="text-black">
-            <div
-              className="
-              max-w-9xl
-              mx-auto
-              flex
-              flex-col
-              items-center
-              justify-center
-              px-5
-            "
-            >
-              <div className="mr-0 mb-6 w-full py-4 text-center lg:w-2/3">
-                <h2 className="mb-4 text-4xl font-bold sm:text-5xl">
-                  Sem enim cursus orci at.
-                </h2>
-                <p className="mb-4 text-lg leading-relaxed">
-                  In ullamcorper magna nunc, non molestie augue feugiat eget.
-                  Mauris, vitae et, vitae et cursus amet tincidunt feugiat
-                  nulla. Senectus maecenas diam risus sodales dictum eu. Eget
-                  cursus sit bibendum pulvinar faucibus vitae nam sed. Faucibus
-                  vel laoreet.
-                </p>
-                <a href="/" className="underline-blue font-semibold">
-                  Learn more
-                </a>
-              </div>
-              <img
-                className="
-                lg:w-5/7
-                mb-40
-                hidden
-                w-5/6
-                rounded object-cover
-                object-center
-                lg:inline-block 
-                lg:w-4/6
-              "
-                src="/images/placeholder.png"
-                alt="img"
-              />
-
-              <img
-                className="
-              mb-24
-              inline-block
-              w-5/6
-              rounded
-              object-cover object-center
-              lg:hidden
-              lg:w-4/6 
-            "
-                src="/images/placeholder.png"
-                alt="img"
-              />
-            </div>
-          </div>
+        
         </div>
+
+
+
+
+
+
+
+
+
+        
         <div className="mx-auto px-5 pt-32 pb-24 lg:px-24">
           <div className="my-3 flex w-full flex-col text-left lg:text-center">
             <h2 className="bold mb-8 text-4xl font-bold leading-tight text-black lg:text-6xl">
-              Lorem ipsum elit sit unar,{" "}
-              <br className="hidden lg:inline-block" />
-              consectetur adipiscing elit.
+            About Us
             </h2>
           </div>
           <div className="flex w-full flex-col text-left lg:text-center">
             <h3 className="text-2xl text-black">
-              Lorem ipsum arcu, consectetur adipiscing elit. Viverra elementum
-              pellentesque <br className="hidden lg:inline-block" />
-              tortor, luctus blandit sed dolor et, semper. Posuere vitae vitae,
-              ac mus. Arcu quis feugiat.
+            Genie Homecare is a family-owned and operated business that has been providing home care and nursing services for over 20 years. Our experienced team is committed to providing the highest level of care to each and every one of our clients. We are dedicated to making a positive difference in the lives of those we serve.
             </h3>
           </div>
           <div className="flex w-full flex-row justify-center pt-24 text-center">
@@ -178,57 +62,77 @@ export default function Main() {
               href="/"
               className="underline-blue px-8 text-xl font-semibold text-black"
             >
-              Ut eleifend.
+              Learn More
             </a>
             <a
               href="/"
               className="underline-gray px-6 text-xl font-semibold text-gray-700"
             >
-              Tempus in.
+              Contact Us
             </a>
           </div>
         </div>
-        <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
-          <img src="/images/placeholder.png" alt="img" />
-        </div>
+        {/* <div className="invisible mx-auto flex max-w-6xl p-3 pb-32 lg:visible lg:px-2">
+          <img src="images/image-2.png" alt="img" />
+        </div> */}
         <div className="bg-white text-black">
-          <div className="mx-auto flex flex-col items-center px-5 pt-56 lg:flex-row">
-            <div className="mb-16 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6">
-              <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
-                Bibendum tortor et sit convallis nec morbi.
-              </h2>
-              <p className="font-3xl mb-8 font-semibold leading-relaxed">
-                Lorem ipsum auctor sit amet, consectetur adipiscing elit. Sit a
-                egestas tortor viverra nisl, in non. Neque viverra sollicitudin
-                amet volutpat auctor amet. Aliquam pellentesque condimentum
-                mauris sit tincidunt egestas ullamcorper sit.{" "}
-              </p>
-            </div>
-            <div className="lg:w-full lg:max-w-2xl">
-              <img src="/images/placeholder.png" alt="img" />
-            </div>
+
+
+        <div className="mx-auto flex flex-col items-center px-5 pt-10 lg:flex-row lg:items-start lg:justify-between">
+          <div className="lg:w-1/2 lg:max-w-xl mb-10 lg:mb-0">
+            <img src="images/image-2.png" alt="img" className="w-full" />
           </div>
-          <div className="mt-32">
-            <div className="mx-auto flex flex-col px-5 py-24 text-left lg:flex-row">
-              <div className="hidden lg:inline-block lg:w-full lg:max-w-xl">
-                <img src="/images/placeholder.png" alt="img" />
-              </div>
-              <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-16 lg:pl-24 lg:pt-24">
-                <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
-                  Eu diam in magna blandit sit magna dolor proin velit.
-                </h2>
-                <p className="mb-8 font-semibold leading-relaxed text-black">
-                  Lorem ipsum ac neque, consectetur adipiscing elit. Nibh neque,
-                  ut purus donec sed donec semper ac vestibulum. Mi urna,
-                  facilisis arcu, auctor elit. Ut nunc non aenean netus ut.
-                </p>
-              </div>
-              <div className="inline-block lg:hidden lg:w-full lg:max-w-xl">
-                <img src="/images/placeholder.png" alt="img" />
-              </div>
-            </div>
+          <div className="flex flex-col text-left lg:w-1/2 lg:pr-16 lg:pl-6">
+            <h2 className="mb-4 text-3xl font-bold leading-none sm:text-4xl lg:text-5xl">
+              In-Home Care Services
+            </h2>
+            <p className="text-xl mb-8 font-semibold leading-relaxed sm:text-2xl lg:text-3xl">
+              Our in-home care services include assistance with activities of daily living, such as bathing, dressing, and meal preparation.
+            </p>
           </div>
-          <div className="my-24 p-4 text-black">
+        </div>
+
+
+        <div className="mx-auto flex flex-col items-center px-5 pt-10 lg:flex-row lg:items-start lg:justify-between">
+          <div className="lg:w-1/2 lg:max-w-xl mb-10 lg:mb-0">
+            <img src="images/image-3.png" alt="img" className="w-full" />
+          </div>
+          <div className="flex flex-col text-left lg:w-1/2 lg:pr-16 lg:pl-6">
+            <h2 className="mb-4 text-3xl font-bold leading-none sm:text-4xl lg:text-5xl">
+            Specialized Care Services
+            </h2>
+            <p className="text-xl mb-8 font-semibold leading-relaxed sm:text-2xl lg:text-3xl">
+            We offer specialized care services such as Alzheimer's and Dementia care, Parkinson's care, and Hospice care to meet the unique needs of our clients.            </p>
+          </div>
+        </div>
+
+
+
+
+
+        <div className="mx-auto flex flex-col items-center px-5 pt-10 lg:flex-row lg:items-start lg:justify-between">
+          <div className="lg:w-1/2 lg:max-w-xl mb-10 lg:mb-0">
+            <img src="images/image-4.png" alt="img" className="w-full" />
+          </div>
+          <div className="flex flex-col text-left lg:w-1/2 lg:pr-16 lg:pl-6">
+            <h2 className="mb-4 text-3xl font-bold leading-none sm:text-4xl lg:text-5xl">
+            Nursing Services
+            </h2>
+            <p className="text-xl mb-8 font-semibold leading-relaxed sm:text-2xl lg:text-3xl">
+            Our nursing services include skilled nursing care and medication management to help our clients manage their health conditions.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+          <div className="my-0 p-4 text-black">
             <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-blue-200 to-blue-100 px-5 py-24 lg:flex-row">
               <div className="flex flex-col items-center pb-16 pl-0 text-center lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
                 <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">

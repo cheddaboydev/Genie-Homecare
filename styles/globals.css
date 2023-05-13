@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap");
 
 body {
-  background-color: #ffffff;
+  background-color: #ece0c9;
   overflow-x: hidden;
   font-family: "Space Grotesk", sans-serif;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .bg-blue {
-  background-color: #134ae9;
+  background-color: #a4cfb6;
 }
 
 .bg-gray {
@@ -58,4 +58,9 @@ body {
 
 .max-w-9xl {
   max-width: 110rem;
+}
+
+
+.header-background {
+  background-color: #fefefe; /* Replace with your desired darker color */
 }
