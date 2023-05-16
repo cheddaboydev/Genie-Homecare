@@ -11,35 +11,7 @@ export default function Header() {
           </a>
         </div>
         <div className="flex items-center">
-          <button className="pr-12 pl-4">
-            <svg
-              className="mr-auto inline-block text-black xl:hidden"
-              width="33"
-              height="50"
-              viewBox="0 0 23 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.892578 10.8691H22.1058"
-                stroke="black"
-                strokeLinecap="square"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M0.892578 18.8691H22.1058"
-                stroke="black"
-                strokeLinecap="square"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M22.1066 14.8688H0.893399"
-                stroke="black"
-                strokeLinecap="square"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+          <button style={{backgroundColor: '#92805c', padding: 10, color: 'white'}}>Contact Us</button>
         </div>
       </div>
     </>
