@@ -131,78 +131,46 @@ export default function Main() {
 
 
 
+        <div className="my-0 p-4 text-black">
+    <div className="max-w-9xl mx-auto flex flex-col items-center bg-[#a1eeed] px-5 py-24 lg:flex-row">
+      <div className="flex flex-col items-center pb-16 pl-0 text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
+        <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
+          Frequently Asked Questions
+        </h2>
+        <p className="font-semibold text-md mb-4 lg:text-lg">
+          Do you have questions about our services? Here are some answers to our most frequently asked questions:
+        </p>
+        <dl>
+          <dt className="font-semibold text-md mb-2 lg:text-lg">Q: What types of in-home care services do you provide?</dt>
+          <dd className="mb-4">A: Our in-home care services include assistance with activities of daily living, such as bathing, dressing, and meal preparation.</dd>
+          
+          <dt className="font-semibold text-md mb-2 lg:text-lg">Q: Do you offer specialized care services?</dt>
+          <dd className="mb-4">A: Yes, we offer specialized care services such as Alzheimer's and Dementia care, Parkinson's care, and Hospice care to meet the unique needs of our clients.</dd>
 
-          <div className="my-0 p-4 text-black">
-            <div className="max-w-9xl mx-auto flex flex-col items-center bg-gradient-to-r from-blue-200 to-blue-100 px-5 py-24 lg:flex-row">
-              <div className="flex flex-col items-center pb-16 pl-0 text-center lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pl-12 lg:pr-24 lg:text-left">
-                <h2 className="pb-4 text-2xl font-bold leading-tight lg:text-4xl">
-                  Lorem ipsum mi at amet, consecteturadipiscing elit. Mattis.
-                </h2>
-                <p className="text-md mb-8 lg:text-xl">
-                  Lorem ipsum praesent amet, consectetur adipiscing elit. Cursus
-                  ullamcorper id tristique tincidunt. Tincidunt feugiat at mi
-                  feugiat hendrerit. Ac faucibus accumsan, quis lacus, lectus
-                  eget bibendum. At praesent quisque sollicitudin fusce.
-                </p>
-              </div>
-              <div className="w-4/7 pr-12 lg:w-2/5">
-                <img
-                  src="/images/placeholder.png"
-                  className="hidden object-cover object-center lg:inline-block"
-                  alt="image"
-                />
-                <img
-                  src="/images/placeholder.png"
-                  className="inline-block object-cover object-center lg:hidden"
-                  alt="image"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="mx-auto">
-            <div className="max-w-8xl mx-auto px-5 py-24 lg:px-24">
-              <div className="my-6 flex w-full flex-col text-left lg:text-center">
-                <h3 className="mb-8 text-5xl font-bold text-black">
-                  Dui tellus quis magna id ultricies eu sed.
-                </h3>
-                <h3 className="mb-12 px-0 text-lg font-semibold text-gray-900 lg:px-52">
-                  Lorem ipsum accumsan arcu, consectetur adipiscing elit.
-                  Aliquet vestibulum molestie amet, maecenas id amet. Ipsum
-                  accumsan arcu, aenean viverra penatibus quis. Laoreet.
-                </h3>
-              </div>
-              <img src="/images/placeholder.png" alt="img" />
-            </div>
-          </div>
-          <div className="text-black">
-            <div className="max-w-8xl mx-auto flex flex-col px-5 py-48 text-black lg:flex-row">
-              <div className="lg:mb-0 lg:w-full lg:max-w-xl">
-                <img
-                  className="rounded object-cover object-center"
-                  alt="image"
-                  src="/images/placeholder1.png"
-                />
-              </div>
-              <div className="items-left flex flex-col pt-16 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-32 lg:pl-48 lg:text-left">
-                <h2 className="mb-2 text-lg leading-tight text-gray-700 sm:text-lg">
-                  Viverra enim diam gravida risus nisl.
-                </h2>
-                <h2 className="mb-6 text-lg font-bold sm:text-lg">
-                  Lectus eu.
-                </h2>
-                <h2 className="mb-4 text-3xl font-bold sm:text-3xl">
-                  Lorem ipsum accumsan arcu, consectetur adipiscing elit. Sed
-                  eget enim vel.
-                </h2>
-                <a
-                  href="/"
-                  className="underline-blue mt-12 text-lg font-bold leading-relaxed"
-                >
-                  Ut convallis massa.
-                </a>
-              </div>
-            </div>
-          </div>
+          <dt className="font-semibold text-md mb-2 lg:text-lg">Q: How do you develop customized care plans?</dt>
+          <dd className="mb-4">A: We conduct a thorough assessment of each client to determine their unique needs and goals, and then work with them and their families to develop a personalized care plan.</dd>
+        </dl>
+      </div>
+      <div className="w-4/7 lg:w-2/5">
+        <img
+          src="/images/image-2.png"
+          className="hidden object-cover object-center lg:inline-block"
+          alt="image"
+        />
+        <img
+          src="/images/image-2.png"
+          className="inline-block object-cover object-center lg:hidden"
+          alt="image"
+        />
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
         </div>
       </section>
     </div>
